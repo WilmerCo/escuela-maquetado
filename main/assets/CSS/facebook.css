@@ -1,0 +1,10 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    display: flex; width: 100%; height: 78px; background: #3b5998; color: white
+}
+.login-cuadro{
+    width: 33%;
+    margin: 15px 4px 15px 5px;
+}
