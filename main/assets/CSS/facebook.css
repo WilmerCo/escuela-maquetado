@@ -1,10 +1,164 @@
+/* Clases generales */
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.header{
-    display: flex; width: 100%; height: 78px; background: #3b5998; color: white
+
+.width50 {
+    width: 50%;
 }
-.login-cuadro{
+.width100{
+    width: 100%;
+}
+.pad5{
+    padding: 5px
+}
+
+/* Cabecera */
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 78px;
+    background: #3b5998;
+    color: white;
+}
+
+.header .logo {
+    width: 114px;
+    margin-left: 114px
+}
+
+.header .login-cuadro{
     width: 33%;
     margin: 15px 4px 15px 5px;
+}
+
+.header .login-rightbox {
+    display: flex;
+    width: 50%;
+}
+.div-btni{
+    width: 33%;
+    margin: 30px 4px 30px 1px;
+}
+.btni{
+    color: white; 
+    background:rgb(66, 103, 178)
+}
+
+/* -------------------------------------- */
+
+/* contenido */
+.widthback50{
+    width: 50%;
+    background:#fff;    
+}
+.pass{
+    width: 357px; 
+    padding: 8px 10px; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    border: 1px solid #bdc7d8; 
+    margin-top: 10px;
+}
+.cuadro{
+    width: 16,5%; 
+    font-size: 13px; 
+    padding: 5px;
+}
+.p12{
+    font-size: 12px
+}
+.flex{
+    display:flex;
+}
+.widthback100{
+    width: 100%; background: #e9ebee
+}
+.centrar{
+    margin: auto;
+    width: 450px;
+}
+.button{
+    background: linear-gradient(#67ae55, #578843); 
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115; 
+    color: white; font-size: 19px;
+    border-radius: 5px; 
+    text-align: center;
+    padding: 7px 20px; 
+    text-shadow: 1px 2px rgba(0,0,0,.5); 
+    cursor: pointer"
+    type="submit"
+}
+.margin10{
+    margin-top: 10px
+}
+.input-name{
+    width: 172px; 
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px; 
+    border: 1px solid #bdc7d8
+}
+.mar-right10{
+    margin-right: 10px
+}
+.img-2{
+    height:225px;
+    background-color: #f5f6f7; 
+    position: relative;
+}
+.img-1{
+    background-image: url(../images/cruz.png);
+    width: 42px; 
+    height: 42px;
+    position: absolute; 
+    top: 50%; left: 50%;
+    margin-top: -21px;
+    margin-left: -21px
+}
+.pic{
+    font-size: 16px;
+    background:#fff;
+    padding: 12px 0;
+    text-align: center
+}
+.m0{
+    margin: 0;
+}
+.blue{
+    color:#365899
+}
+.ini{
+    font-size: 36px; 
+    margin: 5px
+}
+.click{
+    font-size: 19px;
+    margin: 5px;
+}
+
+/* footer */
+.footer{
+    width: 100%
+}
+.footer-centerbox{
+    width: 980px; 
+    margin: auto; 
+    font-size: 15px
+}
+.border-bottom{
+    border-bottom: 1px solid #dddfe2;
+}
+.ulfooter{
+    list-style:none; padding: 0
+}
+.listfooter{
+    display: inline-block;padding-left: 10px
+}
+.span{
+    font-size: 11px;color: #737373
 }
