@@ -51,7 +51,15 @@ h4{
     margin: 6%;
     letter-spacing: -4px;
     }
-
+.sub3{
+    font-weight: 600;
+    font-size:30px;
+    text-align: center;
+    
+}
+.margen-bot10{
+    margin-bottom: 10%;
+}
 
 .text{
     font-size: 18px;
@@ -95,7 +103,15 @@ h4{
     font-size: 15px;
     line-height:15px;
     word-break: break-all;
+    margin-bottom: 10%;   
+}
+
+.text5{
+    font-weight:200;
+    font-size: 15px;
+    line-height:15px;
     margin-bottom: 10%;
+    text-align: center;
     
 }
 .resaltado{
@@ -123,10 +139,16 @@ h4{
 }
 .relative{
     position: relative;
+    height: 10%;
 }
 .positionmid{
     position: absolute;
     left: 50%;
+}
+.positionimg{
+    display:block;
+    text-align: center;
+    
 }
 /* Header*/
 .cur{
@@ -161,9 +183,17 @@ header{
     background: #fdb913;
     padding-bottom: 10%;
     }
-main2{ 
+.main2{ 
     width: 100%;
     background:white;
     padding-bottom: 10%;
     }
+.main3{
+    background: #fdb913;
+    width:70%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 15%;
+}
 /* footer*/
