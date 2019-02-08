@@ -57,6 +57,12 @@ h4{
     text-align: center;
     
 }
+.sub4{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding:0;
+}
 .margen-bot10{
     margin-bottom: 10%;
 }
@@ -114,6 +120,29 @@ h4{
     text-align: center;
     
 }
+.text6{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    letter-spacing: -3px;
+    line-height: 50px;
+    margin:0;   
+}
+.text7{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    word-break: break-all;
+    padding: 10%;
+}
+.text8{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    margin:10%;
+}
 .resaltado{
     color:#fdb913;
     
@@ -137,6 +166,9 @@ h4{
     padding: 0% 3%;
     margin: 0% 10%;
 }
+.margen5{
+    margin:5%;
+}
 .relative{
     position: relative;
     height: 10%;
@@ -149,6 +181,9 @@ h4{
     display:block;
     text-align: center;
     
+}
+.pad10{
+    padding: 10%;
 }
 /* Header*/
 .cur{
@@ -190,10 +225,16 @@ header{
     }
 .main3{
     background: #fdb913;
-    width:70%;
+    width:75%;
     text-align: center;
-    font-weight: 600;
-    font-size: 35px;
-    margin: 15%;
+    font-weight:700;
+    font-size: 32px;
+    letter-spacing: -3px;
+    margin: 14%;
+}
+.main4{
+    background: black;
+    width: 100%;
+    text-align: center;
 }
 /* footer*/
