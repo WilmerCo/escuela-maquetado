@@ -21,6 +21,10 @@ body {
 h4{
     margin:0;
 }
+a{
+    color:black;
+    text-decoration: none;
+}
 .mon{
     font-weight: 700;
     font-size: 75px;
@@ -63,6 +67,35 @@ h4{
     text-align: center;
     padding:0;
 }
+.sub5{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;   
+    margin: 6%;
+    letter-spacing: -4px;
+    }
+.sub6{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color:black;
+    margin: 0;
+}
+.num{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color:black;
+    margin: 6%;
+}
+.mail{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    margin: 6%;
+}
+
 .margen-bot10{
     margin-bottom: 10%;
 }
@@ -142,6 +175,21 @@ h4{
     font-size: 15px;
     text-align: center;
     margin:10%;
+}
+.text9{
+    font-weight: 300;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.text10{
+    font-weight: 600;
+    font-size:25px;
+    color:black;
+    text-align: center;
+    margin-left: 7%;
 }
 .resaltado{
     color:#fdb913;
@@ -268,4 +316,26 @@ header{
 .width100:focus {
     outline: none;
 }
+.list{
+    display: inline-block;
+    padding: 0;
+    width: 25%;
+    text-align: center;
+}
+.ulist{
+    list-style: none;
+    padding: 0 5%;
+    width: 90%;
+    display: flex;
+    
+}
 /* footer*/
+.foot{
+    background-color: black;
+    font-weight: 300;
+    font-size:12px;
+    color: white;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
